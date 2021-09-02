@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		303579CC26D7F6FA00911CC5 /* SearchableSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303579CB26D7F6FA00911CC5 /* SearchableSpinner.swift */; };
+		308E3F6626E0C842007A8056 /* SpinnerSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308E3F6526E0C842007A8056 /* SpinnerSearchView.swift */; };
 		30C40D7526D371F500EC382E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C40D7426D371F500EC382E /* AppDelegate.swift */; };
 		30C40D7726D371F500EC382E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C40D7626D371F500EC382E /* SceneDelegate.swift */; };
 		30C40D7926D371F500EC382E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C40D7826D371F500EC382E /* ViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		303579CB26D7F6FA00911CC5 /* SearchableSpinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableSpinner.swift; sourceTree = "<group>"; };
+		308E3F6526E0C842007A8056 /* SpinnerSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerSearchView.swift; sourceTree = "<group>"; };
 		30C40D7126D371F500EC382E /* SearchableSpinner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchableSpinner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30C40D7426D371F500EC382E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30C40D7626D371F500EC382E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3054B84126D4C60D0004736A /* Spinner */ = {
+			isa = PBXGroup;
+			children = (
+				303579CB26D7F6FA00911CC5 /* SearchableSpinner.swift */,
+				308E3F6526E0C842007A8056 /* SpinnerSearchView.swift */,
+			);
+			path = Spinner;
+			sourceTree = "<group>";
+		};
 		30C40D6826D371F500EC382E = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +112,7 @@
 		30C40D7326D371F500EC382E /* SearchableSpinner */ = {
 			isa = PBXGroup;
 			children = (
+				3054B84126D4C60D0004736A /* Spinner */,
 				30C40D7426D371F500EC382E /* AppDelegate.swift */,
 				30C40D7626D371F500EC382E /* SceneDelegate.swift */,
 				30C40D7826D371F500EC382E /* ViewController.swift */,
@@ -259,6 +273,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				30C40D7926D371F500EC382E /* ViewController.swift in Sources */,
+				308E3F6626E0C842007A8056 /* SpinnerSearchView.swift in Sources */,
+				303579CC26D7F6FA00911CC5 /* SearchableSpinner.swift in Sources */,
 				30C40D7526D371F500EC382E /* AppDelegate.swift in Sources */,
 				30C40D7726D371F500EC382E /* SceneDelegate.swift in Sources */,
 			);
@@ -366,7 +382,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +437,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -438,6 +454,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SearchableSpinner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,6 +473,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SearchableSpinner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
