@@ -373,9 +373,6 @@ extension SearchableSpinner : UITextFieldDelegate {
             }
             return true;
         }else{
-//            if !self.isSelected {
-//                showListInSeperateView()
-//            }
             return false;
         }
        

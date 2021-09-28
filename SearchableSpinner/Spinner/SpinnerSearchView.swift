@@ -133,6 +133,7 @@ class SpinnerSearchView: UIViewController, UITableViewDelegate, UITableViewDataS
         cell!.selectionStyle = .none
       
         cell?.textLabel?.numberOfLines = 0
+        cell?.backgroundColor = .white
         return cell!
     }
     

@@ -54,7 +54,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -70,6 +70,14 @@
             <point key="canvasLocation" x="95.652173913043484" y="75.669642857142847"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="DTR-99-5nN">
+            <size key="intrinsicContentSize" width="118.5" height="34"/>
+        </designable>
+        <designable name="btF-A7-ouw">
+            <size key="intrinsicContentSize" width="118.5" height="34"/>
+        </designable>
+    </designables>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
